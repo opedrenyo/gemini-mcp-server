@@ -61,6 +61,25 @@ The `gemini_chat` tool will be available in your next conversation.
 | `GOOGLE_API_KEY` | Yes | — | Google AI Studio API key |
 | `GEMINI_MODEL` | No | `gemini-2.0-flash` | Model to use |
 
+To change the model, add `GEMINI_MODEL` to your `env` block:
+
+```json
+"env": {
+  "GOOGLE_API_KEY": "your-api-key-here",
+  "GEMINI_MODEL": "gemini-2.5-pro"
+}
+```
+
+Some available models:
+
+| Model | Best for |
+|---|---|
+| `gemini-2.0-flash` | Fast, cheap, good for most tasks (default) |
+| `gemini-2.5-flash` | Reasoning + speed balance |
+| `gemini-2.5-pro` | Best quality, complex analysis |
+
+Full list at [Gemini model docs](https://ai.google.dev/gemini-api/docs/models).
+
 ## Usage examples
 
 **Text only:**
