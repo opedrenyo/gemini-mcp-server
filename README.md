@@ -76,7 +76,10 @@ Some available models:
 |---|---|
 | `gemini-2.0-flash` | Fast, cheap, good for most tasks (default) |
 | `gemini-2.5-flash` | Reasoning + speed balance |
-| `gemini-2.5-pro` | Best quality, complex analysis |
+| `gemini-2.5-pro` | Complex analysis, high quality |
+| `gemini-3-flash-preview` | Fast frontier-class performance at low cost |
+| `gemini-3.1-pro-preview` | Most advanced model for complex tasks |
+| `gemini-3.1-flash-lite-preview` | High-volume, low latency, cost-efficient |
 
 Full list at [Gemini model docs](https://ai.google.dev/gemini-api/docs/models).
 
