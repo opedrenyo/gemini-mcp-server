@@ -12,7 +12,12 @@ Exposes a single tool — `gemini_chat` — that lets Claude send messages to Ge
 
 ### 1. Get a Google API key
 
-Get one from [Google AI Studio](https://aistudio.google.com/apikey).
+1. Go to [Google AI Studio](https://aistudio.google.com/apikey)
+2. Sign in with your Google account
+3. Click **Create API Key** and select a Google Cloud project (or create one)
+4. Copy the generated key
+
+The free tier is generous for most use cases. See the [Gemini API docs](https://ai.google.dev/gemini-api/docs/api-key) for details on quotas and pricing.
 
 ### 2. Install
 
