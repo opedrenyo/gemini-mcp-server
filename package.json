@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "gemini-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for communicating with Google AI Studio (Gemini)",
+  "main": "index.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@modelcontextprotocol/sdk": "1.8.0",
+    "zod": "^3.24.2",
+    "zod-to-json-schema": "^3.24.1"
+  }
+}
